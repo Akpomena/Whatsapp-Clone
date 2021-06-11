@@ -1,0 +1,38 @@
+.app {
+  background-color: #FFFDD0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.app__body{
+  background-color: #fff;
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+  box-shadow: -1px 4px 20px -6px #000;
+}
+
+.sign__in {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 50px;
+}
+
+.sign__in button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #00a86b;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sign__in button:hover {
+  background-color: lightgreen;
+}
+
+.sign__in img {
+  width: 20vw;
+  height: auto;
+}

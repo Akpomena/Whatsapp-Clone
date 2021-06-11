@@ -1,0 +1,32 @@
+h4, h2, p {
+    margin: 0;
+}
+
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+.sidebar__chat {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid lightgrey;
+    margin: 5px 0;
+}
+
+.sidebar__chat:hover {
+    background-color: #ebebeb;
+}
+
+.chat__message {
+    margin-left: 20px;
+    flex: 1;
+}
